@@ -27,14 +27,14 @@ an ESP32 Based iBBQ (Inkbird) BLE to MQTT Gateway
 
 ## Usage:
 
-* After flashing the device will automaitcally connect to your WiFi, connect to your iBBQ Device and then start publishing data to MQTT
+* After flashing the device will automatically connect to your WiFi, connect to your iBBQ Device and then start publishing data to MQTT
 
 ## MQTT Topics:
 
 * `inkbird/BLE` - Reports if the device is `Connected` or `Disconnected` to your iBBQ
 * `inkbird/BATTERYLEVEL` - Reports the iBBQ Battery Level (e.g. `73` equals 73%)
-* `inkbord/PROBE1` - Reports the temperature of Probe 1 (e.g `120` equals 120c)
-  * Each Probe has its own topic (e.g. `inkbord/PROBE1`, `inkbord/PROBE2`, `inkbord/PROBE3`, etc)
+* `inkbird/PROBE1` - Reports the temperature of Probe 1 (e.g `120` equals 120c)
+  * Each Probe has its own topic (e.g. `inkbird/PROBE1`, `inkbird/PROBE2`, `inkbird/PROBE3`, etc)
 
 ## Known Issues:
 
@@ -53,4 +53,4 @@ an ESP32 Based iBBQ (Inkbird) BLE to MQTT Gateway
 
 * Protocol Description: https://gist.github.com/uucidl/b9c60b6d36d8080d085a8e3310621d64
 * Battery Status: https://github.com/sworisbreathing/go-ibbq/issues/2#issuecomment-650725433
-* ESP32 BLE Timeout Bug: https://github.com/nkolban/esp32-snippets/issues/874
+* ESP32 BLE Arduino Timeout Bug: https://github.com/nkolban/esp32-snippets/issues/874
