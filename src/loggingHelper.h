@@ -93,4 +93,5 @@ void setLogLevel(){
     // esp_log_level_set("TAG", ESP_LOG_DEBUG);
     esp_log_level_set("*", ESP_LOG_ERROR);  
     esp_log_level_set("BBQ",ESP_LOG_DEBUG);
+    esp_log_level_set("BLE",ESP_LOG_DEBUG);
 }
